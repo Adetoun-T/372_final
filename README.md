@@ -29,7 +29,7 @@ Open http://localhost:5173, authorize Spotify, and play a track.
 See SETUP.md for full installation instructions.
 
 ## Video Links
-Demo video: []
+Demo video: https://youtu.be/GYtwrkCdSHA
 
 Technical walkthrough: https://youtu.be/qjGwEOZDJYA
 
