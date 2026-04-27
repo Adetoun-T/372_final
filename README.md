@@ -31,7 +31,7 @@ See SETUP.md for full installation instructions.
 ## Video Links
 Demo video: []
 
-Technical walkthrough: []
+Technical walkthrough: https://youtu.be/qjGwEOZDJYA
 
 ## Evaluation
 The model was evaluated both quantitatively and qualitatively.
