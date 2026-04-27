@@ -46,31 +46,13 @@ Final validation loss
 1.741213
 
 Training loss decreased by 80% over 20 epochs, confirming the model learned the target commentary style. Validation loss diverged from training loss after approximately epoch 10, indicating overfitting on the small training set.
-Hyperparameter tuning results:
-Run
-Learning Rate
-LoRA Rank
-Epochs
-Final Train Loss
-Final Val Loss
-1
-2e-4
-8
-20
-0.7060
-1.7412
-2
-1e-4
-8
-20
-1.2393         
-1.5630
-3
-2e-4
-16
-20
-0.7092
-1.7231
+### Hyperparameter Tuning Results
+
+| Run | Learning Rate | LoRA Rank | Epochs | Final Train Loss | Final Val Loss |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | 2e-4 | 8 | 20 | 0.7060 | 1.7412 |
+| 2 | 1e-4 | 8 | 20 | 1.2393 | 1.5630 |
+| 3 | 2e-4 | 16 | 20 | 0.7092 | 1.7231 |
 
 Although Run 2 achieved lower validation loss, I selected Run 1 for the final model because the lower validation loss in Run 2 came at the cost of higher training loss. This suggests the model learned the target style less thoroughly. And for my creative commentary task, qualitative output quality matters more than generalization metrics and Run 1's outputs were noticeably more “witty” and culturally specific. So I accepted some overfitting because the goal is style imitation rather than generalization.
 ### Qualitative results:
