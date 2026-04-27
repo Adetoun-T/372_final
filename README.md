@@ -8,25 +8,7 @@ When you play a track, the app fetches metadata from Spotify (track name, artist
 locally-hosted fine-tuned LLM, and returns a “roast” of your music taste. The model was fine-tuned from Llama 3.2 3B-Instruct on a custom 
 dataset of 120 music commentary examples using LoRA adapters, adapting a general-purpose instruction-following model to a specialized creative commentary domain.
 
-## Quick Start
-You need Node.js, Python with uvx, and Ollama installed locally.
-git clone https://github.com/Adetoun-T/372_final
-cd music-roast
-npm install
-cp .env.example .env
-
-Fill in your Spotify credentials in .env, then:
-# Terminal 1
-ollama serve
-
-# Terminal 2
-uvx mcpo --port 8000 --config ./mcp_config.json
-
-# Terminal 3
-npm run dev
-
-Open http://localhost:5173, authorize Spotify, and play a track.
-See SETUP.md for full installation instructions.
+This model was fine tuned for the purposes of plugging it into another project. This repo only contains the fine tuned model + its documentation
 
 ## Video Links
 Demo video: https://youtu.be/GYtwrkCdSHA
